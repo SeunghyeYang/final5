@@ -1,0 +1,410 @@
+  body { 
+      margin: 0;
+      padding: 0; 
+  }
+
+  .logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+      padding-top: 10px; 
+  }
+
+  .carousel-inner {
+    padding-top: 20px; 
+  }
+
+  .title {
+    font-family: 'Baloo 2', cursive, bold; 
+    font-size: 24px; 
+      padding-bottom: 15px; 
+      padding-left: 26px; 
+    
+  }
+
+  .grid-container {
+
+    display: grid;
+    grid-template-columns: 20px 200px auto 80px;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: white; 
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .item2 {
+      font-size: 17px; 
+      font-weight: 500; 
+  }
+
+  .item4 {
+      font-size: 18px;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 600; 
+  }
+
+  .item8 {
+      font-size: 16px; 
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      color: #7697cb; 
+  }
+
+
+  .personalization {
+      padding-left: 20px; 
+      padding-bottom: 20px; 
+      font-family: 'Quicksand', sans-serif;
+      width: 90%; 
+  }
+
+
+  .row {
+      padding-bottom: 40px; 
+      padding-left: 20px; 
+      padding-right: 20px; 
+      
+  }
+
+  .col {
+      padding-bottom: 20px; 
+  }
+
+  .product {
+    width: 90%; 
+    padding-top: 5px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .productname {
+      margin: 0; 
+      font-family: 'Nunito', sans-serif;
+      font-size: 14px; 
+      padding: 5px 0px 0 10px; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      white-space:nowrap; 
+      width: 150px;  
+  }
+
+
+  .price {
+      margin: 0; 
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500; 
+      font-size: 16px; 
+      padding: 0px 0px 0 10px; 
+  }
+
+  .first {
+      background-color: #80aaaa;
+  }
+
+  .productfirst {
+      background-color: #f7e184;
+      padding-top: 40px; 
+  }
+
+  .firstunder {
+      background-color: white; 
+      padding-top: 20px; 
+      padding-bottom: 60px; 
+      border-radius: 0 0 50px 50px;
+  }
+
+  .second { 
+      background-color: #80aaaa;
+      color: white; 
+      padding-top: 40px; 
+      padding-bottom: 40px; 
+  }
+
+  .productsecond { 
+      background-color: #f7e184;
+      color: white; 
+      padding-top: 40px; 
+      padding-bottom: 40px; 
+      color: #2b2a28; 
+  }
+
+  .w3-bar { 
+      font-size: 17px;
+      margin: auto;
+      width: 50%;
+      text-align: center; 
+      letter-spacing: 6px;
+  }
+
+  .container {
+    position: fixed; 
+    bottom: 0;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    background-color: #f7e184; 
+    width: 100%; 
+  }
+
+
+  .details {
+      padding-top: 30px; 
+      padding-left: 20px; 
+      font-family: 'Nunito', sans-serif;
+  }
+
+  .detailtitle {
+      font-size: 18px; 
+      font-weight: 600; 
+      padding-top: 20px; 
+  }
+
+  .explanation {
+      padding-top: 10px; 
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 95%; 
+      font-size: 13px; 
+  }
+
+  ul li{
+      list-style: none; 
+  }
+
+  ul.explanation {
+      list-style-type: circle;
+  }
+
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    background-color: none;
+    border: none;
+    
+  }
+
+  #dots {
+    padding-right: 7px; 
+  }
+
+
+  .quantity {
+      padding-left: 20px; 
+      font-size: 15px; 
+      font-family: 'Quicksand', sans-serif;
+  }
+
+
+  .addbutton { 
+      background-color: #f7e184;
+      border: none;
+        color: black; 
+        padding: 5px 20px;
+        text-align: center;
+        font-weight: 400; 
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+      border-radius: 20px; 
+  }
+
+  .cartbutton { 
+      background-color: #80aaaa; 
+      border: none;
+        color: white; 
+        padding: 15px 110px;
+        text-align: center;
+        font-weight: 600; 
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      font-family: 'Quicksand', sans-serif;
+      border-radius: 30px; 
+  }
+
+  .text-center {
+    text-align: center;
+      padding-top: 40px; 
+  }
+
+
+  .text-right {
+    text-align: right;
+  }
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+* { box-sizing: border-box; }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.carousel {
+  padding-bottom: 30px;
+  padding-top: 30px; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 10px 10px 40px 10px ;
+}
+
+.grid > div {
+  text-align: center;
+  padding: 20px 0;
+} 
+
+.button1 {
+ border-radius: 30px;
+ background-color: #f4d9d9;
+}
+
+.button2 {
+  border-radius: 30px;
+  background-color: #f4d9d9;
+ }
+
+ .button3 {
+  border-radius: 30px;
+  background-color: #f4d9d9;
+ }
+
+ .button4 {
+  border-radius: 30px;
+  background-color: #f4d9d9;
+ }
+
+.accountbutton {
+  font-size: 14px; 
+  border: none;
+  background-color: #f4d9d9;
+}
+
+.yourorders{
+  background-color:#f7e184;
+  padding: 20px 0 20px 0; 
+}
+
+.youraccount {
+  background-color:#80aaaa; 
+  padding: 20px 0 20px 0; 
+}
+
+.seeallorders {
+  padding: 10px 30px 10px 30px; 
+  border-radius: 20px;
+  border: none; 
+  background-color: #c7e2e1;
+  font-size: 12px; 
+  margin-right: 10px; 
+}
+
+.viewyouraccount {
+  padding: 10px 30px 10px 30px; 
+  border-radius: 20px;
+  border: none; 
+  background-color: #c7e2e1;
+  font-size: 12px; 
+  margin-right: 10px; 
+}
+
+.greeting {
+  display: grid;
+  grid-template-columns: auto 100px; 
+  grid-gap: 10px;
+  padding: 40px 10px 40px 10px ;
+}
+
+.greet {
+  padding-left: 15px; 
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color:#80aaaa; 
+  font-size: 30px; 
+}
+
+.accounticon {
+  padding-top: 10px; 
+  padding-left: 20px; 
+}
+
